@@ -28,21 +28,6 @@ export default function Navbar({ }): any {
                     </Button>
                 </Link>
             </div>
-            <div className="items-center hidden gap-2 md:flex">
-                <ModeToggle />
-                <Link href="https://github.com/benlhachemi/modifio.git">
-                    <Button
-                        variant="default"
-                        className="items-center hidden gap-2 bg-orange-600 rounded-full w-fit md:flex"
-                        size="lg"
-                    >
-                        <span>Github Repo</span>
-                        <span className="text-xl">
-                            <BsGithub />
-                        </span>
-                    </Button>
-                </Link>
-            </div>
             {/* MOBILE NAV */}
             <Sheet>
                 <SheetTrigger className="block p-3 md:hidden">
